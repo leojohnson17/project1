@@ -8,24 +8,34 @@
    </head>
    <body>
 	<h1>Time Crash Beta Test</h1>
-	<h2>To sign ups for beta test put the required information down below:</h2>
+	<h2>To sign up for beta test put the required information down below:</h2>
       <form method="get" action="#null"  autocomplete="on">
          <h3>
             <label for= "firstname">First Name:</label>
             <input type="text" id="firstname" name="firstname" >
          </h3>
          <h3>
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname">
+            <label for="genre">What is your favorite genre:</label>
+            <select id="lastname" name="lastname">
+				<option value="notselected" selected>Select one</option>
+				<option value="action">Action</option>
+				<option value="adventure">Adventure</option>
+				<option value="puzzle">Puzzle</option>
+				<option value="horror">Horror</option>
+			</select><br><br>	
          </h3>
          <h3>
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" maxlength="12" size="40">
          </h3>
          <h3>
-            <label for="date"> Are you 18 or older?</label>
+            <label for="age"> Are you 18 or older?</label>
             <input type="checkbox" id="age" name="age">
          </h3>
+		 </h3>In 100 worlds or less why you want to parcipate in the beta test?
+		 <br><br><textarea name = "why" rows="5" cols="30">
+		 </textarea>
+		 </h3>
          <h3>
             <button type="submit">Submit</button>
          </h3>
