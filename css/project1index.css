@@ -17,6 +17,7 @@
      font-size: var(--font-size-base);
      line-height: var(--line-height);
      margin: 0;
+	 border: none;
      box-sizing: border-box;
      font-family:'Roboto', 'Merriweather', 'Pacifico', sans-serif;
      padding: 15px;
@@ -28,7 +29,7 @@
   html {
          scroll-behavior:smooth;
     }
-     input[type="text"], input[type="email"], input[type="genre"], input[type="box"],input[type="area"] textarea {
+     input[type="text"], input[type="email"], input[type="genre"], input[type="box"],input[type="area"] input[type="comments"] textarea {
          width: 60%;
          margin: 12px 1%;
          padding: 15px;
@@ -110,11 +111,12 @@ body {
  form {
      display: flex;
      flex-direction: column;
+	 justify-content: space-between;
 }
   html {
          scroll-behavior:smooth;
     }
-     input[type="text"], input[type="email"], input[type="genre"], input[type="box"],input[type="area"] textarea {
+     input[type="text"], input[type="email"], input[type="genre"], input[type="box"],input[type="area"] textarea  {
          width: 60%;
          margin: 12px 1%;
          padding: 15px;
