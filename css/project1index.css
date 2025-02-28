@@ -6,14 +6,14 @@
      --font-size-xlarge: 1.5rem;
      --font-size-xxlarge: 2rem;
      --line-height:1.5; 
-	 --primary-color: darkblue;
-	 --secondary-color: red;
-	 --accent-color: yellow;
+	 --primary-color: #7DF9FF;
+	 --secondary-color: #7C0A02;
+	 --accent-color: #E4D00A;
 	 --background-color: #ecf0f1;
 	 --text-color: #2c3e50;
 }
  body {
-	 background-color: lightgreen;
+	 background-color: #466D1D;
      font-size: var(--font-size-base);
      line-height: var(--line-height);
      margin: 0;
@@ -100,7 +100,7 @@
 }
  @media screen and (max-width: 600px) {
 body {
-	 background-color: lightgreen;
+	 background-color: #466D1D;
      font-size: var(--font-size-base);
      line-height: var(--line-height);
      margin: 0;
@@ -152,7 +152,7 @@ body {
 }
  @media screen and (min-width: 1024px) {
  body {
-	 background-color: lightgreen;
+	 background-color: #466D1D;
      font-size: var(--font-size-base);
      line-height: var(--line-height);
      margin: 0;
