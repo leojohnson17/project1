@@ -30,9 +30,9 @@
          scroll-behavior:smooth;
     }
      input[type="text"], input[type="email"], input[type="genre"], input[type="box"],input[type="area"] input[type="comments"] textarea {
-         width: 60%;
+         width: 50%;
          margin: 12px 1%;
-         padding: 15px;
+         padding: 10px;
          border: none;
          border-radius: 6px;
          font-size: 20px;
