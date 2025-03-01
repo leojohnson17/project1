@@ -200,3 +200,19 @@ body {
 	 button:hover {
      background-color:var(--primary-color);
 	}
+	   #progress-container {
+      width: 100%;
+      background-color: #f3f3f3;
+      border: 1px solid #ccc;
+      height: 20px;
+      margin: 20px 0;
+    }
+    #progress-bar {
+      height: 100%;
+      width: 0%;
+      background-color: #4caf50;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 14px;
+    }
