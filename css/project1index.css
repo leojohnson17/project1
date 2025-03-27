@@ -86,7 +86,7 @@ button:hover {
          flex-wrap: wrap;
      }
      input[type="text"], input[type="email"], input[type="genre"], input[type="text-box"], textarea {
-         width: 60%;
+         width: 90%;
          margin: 12px 1%;
          padding: 15px;
          border: none;
@@ -111,7 +111,7 @@ button:hover {
      }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
      body {
          background-color: #466D1D;
          font-size: var(--font-size-base);
@@ -127,12 +127,12 @@ button:hover {
          justify-content: space-between;
      }
      input[type="text"], input[type="email"], input[type="genre"], input[type="text-box"], textarea {
-         width: 60%;
-         margin: 12px 1%;
-         padding: 15px;
+         width: 90%;
+         margin: 20px 1%;
+         padding: 5px;
          border: none;
          border-radius: 6px;
-         font-size: 20px;
+         font-size: 25px;
          box-shadow: inset 0 0 0 3px lightblue;
      }
      h1 {
@@ -176,9 +176,9 @@ button:hover {
          flex-direction: column;
      }
      input[type="text"], input[type="email"], input[type="genre"], input[type="text-box"], textarea {
-         width: 60%;
-         margin: 12px 1%;
-         padding: 15px;
+         width: 90%;
+         margin: 15px 1%;
+         padding: 20px;
          border: none;
          border-radius: 6px;
          font-size: 20px;
